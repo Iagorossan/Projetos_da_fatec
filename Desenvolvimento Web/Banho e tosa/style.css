@@ -1,0 +1,47 @@
+
+body{
+    background-color: #1d6a96;
+}
+table,
+tr,
+td,
+th,
+tbody{
+    border: solid 1px black;
+    border-collapse: collapse;
+    font-family: "Dancing Script", cursive;
+}
+
+td {
+    padding: 8px 10px;
+    text-align: center;
+    background-color: #D1DDDB;
+    color: black;
+}
+
+th[scope='col'] {
+    text-align: center;
+    background-color: #85b8cb;
+    color: black;
+    padding: 8px 10px;
+}
+
+tittle {
+    padding: 8px 10px;
+}
+
+img {
+    width: 40%;
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+}

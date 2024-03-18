@@ -1,0 +1,39 @@
+table,
+tr,
+td,
+th,
+tbody {
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 8px 10px;
+    text-align: center;
+    background-color: cyan;
+    color: black;
+}
+
+th[scope='col'] {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    padding: 8px 10px;
+}
+
+tittle {
+    padding: 8px 10px;
+}
+
+img {
+    width: 20%;
+    display: block;
+    text-align: center;
+    padding: 8px 10px;
+}
+
+.imagem{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}

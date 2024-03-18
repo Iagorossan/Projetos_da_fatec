@@ -1,0 +1,43 @@
+h2,h3 { 
+    color:#ffa500; 
+    font-family: "Arial", sans-serif;
+    text-decoration: underline; 
+}
+
+#titulo{
+    text-align: center;
+    background-color: black; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid yellow;
+    color: #ffa500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+    ul li{ list-style: none; 
+           display: inline;
+    }
+
+h2,h3 { 
+    color:#ffa500; 
+    font-family: "Arial", sans-serif;
+    text-decoration: underline; 
+}
+
+#titulo{
+    text-align: center;
+    background-color: black; 
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: 10px solid yellow;
+    color: #ffa500;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
+}
+
+    ul li{ list-style: none; 
+           display: inline;
+    }
