@@ -1,7 +1,5 @@
-.imagem{
-    display: flex;
-    justify-content: center;
-}
 body{
-    background-color: #E0FFFF;
+    background-color: #87CEFA;
+    display: flex;
+    
 }
