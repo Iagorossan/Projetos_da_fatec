@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label> Número 1: </label>
+    <input type="text" id ="num1">
+    <label> Número 2:</label>
+    <input type="text" id="num2">
+
+    <button onclick="somar()"><p>Somar</p><img src="img.png" height ="30" width="30" /></button>
+    <button onclick="subtrair()"><p>Subtrair</p><img src="menos.png" height ="30" width="30"/></button>
+    <script>
+        function somar(){
+            n1 = Number(document.getElementById('num1').value)
+            n2 = Number(document.getElementById('num2').value)
+            soma = (n1+n2)
+            alert (soma);
+            if (n1 == 0)
+                document.getElementById('num1').style.color = "red";
+            else
+                document.getElementById('num1').style.color ="yellow";
+            
+        }
+        function subtrair(){
+            n1 = Number(document.getElementById('num1').value)
+            n2 = Number(document.getElementById('num2').value)
+            subtracao = (n1-n2)
+                alert (subtracao);
+                if (n1 == 0)
+                    document.getElementById('num1').style.color = "red";
+                else
+                    document.getElementById('num1').style.color ="yellow";
+                }
+                
+
+        /*x = 3 + 7
+        console.log(`Entrei!`+ x);
+        console.log(`A soma é ${x} dos número 3 e 7`)
+        */
+
+    </script>
+</body>
+</html>
