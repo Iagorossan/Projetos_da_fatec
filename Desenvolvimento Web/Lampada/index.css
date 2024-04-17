@@ -1,0 +1,14 @@
+#lampadaDesligada{
+    display: flex;
+    margin: 0 auto;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+#textinho{
+    text-align: center;
+
+}
