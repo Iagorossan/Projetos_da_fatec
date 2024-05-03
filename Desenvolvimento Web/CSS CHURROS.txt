@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header {
+    color: #FF8400;
+}
+
+body {
+    font-family: 'Roboto';
+    color: #FF8400;
+}
+
+#info {
+    background-color: #e7e7e7;
+    color: black;
+}
+
+#massa {
+    color: black;
+}
+
+#ing {
+    color: black;
+}
+
+#cont1 {
+    background-color: black;
+}

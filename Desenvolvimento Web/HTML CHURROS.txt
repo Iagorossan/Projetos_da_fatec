@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/estilo.css">
+    <title>ReceitaMaycon</title>
+</head>
+
+<body>
+    <header>
+        <h2>
+            BOLINHA DE CHURROS
+        </h2>
+        <img src="https://static.itdg.com.br/images/640-400/26d099dd5887204f191fc38c0c564f4e/366034-original.jpg"
+        alt="Bolinhas de Churros">
+    </header>
+    <section id="cont1"> 
+        <div>
+            <nav>
+                Preparo Rendimento Favoritos Comentários
+            </nav>
+        </div>
+    </section>
+        <br>
+        <hr>
+        <br>
+        <div>
+            <h2>INGREDIENTES</h2>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div id="massa">
+            <p>MASSA</p>
+        </div>
+        <div id="ing">
+            <ul class="list">
+                <li>
+                    200 ml de água
+                </li>
+                <li>
+                    1 colher (sopa) de manteiga
+                </li>
+                <li>
+                    4 colheres (sopa) de açúcar
+                </li>
+                <li>
+                    1 colher (chá) de canela em pó
+            </li>
+            <li>
+                1 xícara de farinha de trigo
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
