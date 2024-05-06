@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media (resolution: 150dpi) {
+            p {
+            color: red;
+             }
+        }
+
+        /* Minimum resolution */
+        @media (min-resolution: 72dpi) {
+            p {
+                text-decoration: underline;
+            }
+        }
+
+        /* Maximum resolution */
+        @media (max-resolution: 300dpi) {
+            p {
+                background: yellow;
+            }
+        }
+    </style>
+</head>
+<body>
+    <p>This is a test of your device's pixel density.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur deleniti modi quisquam excepturi tenetur facilis pariatur sit laudantium, expedita ea quaerat optio doloremque eveniet cupiditate quos rem perspiciatis debitis voluptate.</p>
+</body>
+</html>

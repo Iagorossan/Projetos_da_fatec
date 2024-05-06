@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../mq002"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mq003"
+	}
+}
