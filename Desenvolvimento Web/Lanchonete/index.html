@@ -11,7 +11,7 @@
 
 <div class ="container-fluid">
     <div class="alert alert-primary" role="alert">
-        Hamburgueria XGostoso
+        <p>Hamburgueria XGostoso <span id="relogio"></span></p>
     </div>
 
     <div class ="row">
@@ -35,9 +35,9 @@
             <label class="form-label" type="text">Combos</label>
             <select class="form-select" name="combos" id="combos">
                 <option value="43">Moda da casa + Refri 600ml - R$43,00</option>
-                    <option value="40">Dogão Completo - 40,00</option>
-                    <option value="55">XTudão + Refri 600ml - R$ 55,00</option>
-                    <option value="46">X-Salda + Refri 600ml - R$ 46,50 </option>
+                <option value="40">Dogão Completo - 40,00</option>
+                <option value="55">XTudão + Refri 600ml - R$ 55,00</option>
+                <option value="46">X-Salda + Refri 600ml - R$ 46,50 </option>
             </select>
         </div>
 
@@ -53,8 +53,8 @@
 
         <div class="col-2">
             <h6>Entrega</h6>
-            <input type="radio" name="entregas" value="para_viagem" id="viagem">Para Viagem<br>
-            <input type="radio" name="entregas" value="para_balcao" id="balcao">Balcao
+            <input type="radio" name="entregas" value="10" id="viagem">Para Viagem<br>
+            <input type="radio" name="entregas" value="0" id="balcao">Balcao
         </div>  
     </div>
 
@@ -67,7 +67,7 @@
             <button class="btn btn-primary"id="novo_pedido">Novo Pedido</button> 
         </div>
         <div class="col-4">
-            <button class="btn btn-primary"id="recibo">Recibo</button>
+            <button onclick="printar()" class="btn btn-primary"id="recibo">Recibo</button>
         </div>
 </div>
 <br>
